@@ -45,9 +45,9 @@ and a4(w5, notb, count_down);
 or  o2(w6, w4, w5); // enable for c
 
 Flip-Flop Instantiations:
-jk_flip_flop ff1(.clk(clk), .en(en),  .rst(rst), .j(1'b1), .k(1'b1), .q(a));
-jk_flip_flop ff2(.clk(clk), .en(w3),  .rst(rst), .j(1'b1), .k(1'b1), .q(b));
-jk_flip_flop ff3(.clk(clk), .en(w6),  .rst(rst), .j(1'b1), .k(1'b1), .q(c));
+jk_flip_flop ff1(.clk(clk), .en(en),  .rst(rst), .j(j1), .k(k1), .q(a));
+jk_flip_flop ff2(.clk(clk), .en(w3),  .rst(rst), .j(j2), .k(k2), .q(b));
+jk_flip_flop ff3(.clk(clk), .en(w6),  .rst(rst), .j(j3), .k(k3), .q(c));
 
 
 Key Takeaways
