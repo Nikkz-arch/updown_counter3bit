@@ -1,13 +1,9 @@
 # 3-Bit Up/Down Counter using JK Flip-Flops (Verilog)
 
-## 📌 Overview
+## Overview
 This project implements a **3-bit synchronous Up/Down counter** using **JK flip-flops** in Verilog HDL. Instead of giving different clocks to each stage, all flip-flops share the same `clk` signal. The toggling is controlled by **enable logic** (`en`, `w3`, and `w6`) based on the current state and `count_up` / `count_down` signals.
 
-## 👨‍💻 Author
-**Nikshitha Shree C V**  
-B.E. in VLSI Design and Technology
-
-## 🔧 Modules
+##  Modules
 
 ### 1. `jk_flip_flop.v`
 Implements a positive edge-triggered JK Flip-Flop with asynchronous reset and enable.
@@ -67,3 +63,7 @@ Time   clk rst en count_up count_down  a b c
 10000   0   0   1    0         0        0 0 0
 15000   1   0   1    0         1        1 0 0
 ...
+
+## Author
+Nikshitha Shree C V 
+B.E. in VLSI Design and Technology
